@@ -1,6 +1,4 @@
 
-from app.config import settings
-from app.database import client
 from contextlib import asynccontextmanager
 from datetime import datetime, timezone
 
@@ -31,6 +29,7 @@ from app.security import (
     verify_password,
     create_access_token,
 )
+
 
 
 # -------------------- APPLICATION LIFESPAN --------------------
