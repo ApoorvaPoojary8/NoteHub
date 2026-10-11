@@ -1,4 +1,3 @@
-cat > vercel.json <<'EOF'
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
@@ -15,34 +14,23 @@ cat > vercel.json <<'EOF'
   "rewrites": [
     {
       "source": "/health",
-      "destination": {
-        "service": "backend"
-      }
+      "destination": {"service": "backend"}
     },
     {
       "source": "/docs",
-      "destination": {
-        "service": "backend"
-      }
+      "destination": {"service": "backend"}
     },
     {
       "source": "/openapi.json",
-      "destination": {
-        "service": "backend"
-      }
+      "destination": {"service": "backend"}
     },
     {
       "source": "/api/(.*)",
-      "destination": {
-        "service": "backend"
-      }
+      "destination": {"service": "backend"}
     },
     {
       "source": "/(.*)",
-      "destination": {
-        "service": "frontend"
-      }
+      "destination": {"service": "frontend"}
     }
   ]
 }
-EOF
