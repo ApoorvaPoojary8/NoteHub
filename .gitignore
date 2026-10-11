@@ -1,0 +1,22 @@
+
+# Dependencies
+frontend/node_modules/
+backend/.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+backend/.env
+frontend/.env
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Build output
+frontend/dist/
+
+# Editors and operating system
+.vscode/
+.DS_Store
