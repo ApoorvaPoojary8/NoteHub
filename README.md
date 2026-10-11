@@ -126,6 +126,10 @@ Open the frontend URL shown in your terminal, usually `http://localhost:5173`.
 - Automated testing
 - Further UI and accessibility improvements
 
+## 🌐 Live Demo
+
+**Deployed Application:** [NoteHub](https://notehub-3c52.vercel.app)
+
 ## 👩‍💻 Author
 
 **Apoorva Poojary**
